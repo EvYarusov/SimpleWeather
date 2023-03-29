@@ -1,0 +1,40 @@
+.box {
+    margin: 40px;
+    padding: 30px;
+    width: 300px;
+    height: 450px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.weatherElement {
+    margin: 20px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.temperatureBox, .windspeedBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#thermometerImg {
+    height: 50px;
+    
+}
+#windImg {
+    height: 60px;
+    
+}
+#city {
+    font-size: 50px;
+}
+#temperature {
+    font-size: 40px;
+}
+#weathercode {
+    text-align: center;
+}

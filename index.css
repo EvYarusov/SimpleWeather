@@ -11,30 +11,41 @@
     flex-wrap: wrap;
     border-radius: 10px;
 }
+
 .weatherElement {
     margin: 20px;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .temperatureBox, .windspeedBox {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
+
+.temperatureBox {
+    margin-bottom: 30px;
+}
+
 #thermometerImg {
     height: 50px;
     
 }
+
 #windImg {
     height: 60px;
     
 }
+
 #city {
     font-size: 50px;
 }
+
 #temperature {
     font-size: 40px;
 }
+
 #weathercode {
     text-align: center;
 }

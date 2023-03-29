@@ -87,7 +87,7 @@ async function f() {
     temperatureEl.innerText = temperature;
     windspeedEl.innerText = windspeed + " km/h";
     //winddirectionEl.innerText = winddirection;
-    weathercodeEl.innerText = getWeatherByCode(weathercode);
+    weathercodeEl.innerText = "Snow fall: slight intensity";//getWeatherByCode(weathercode);
 }
 f();
 

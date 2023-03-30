@@ -86,8 +86,8 @@ async function f() {
     cityEl.innerText = city;
     temperatureEl.innerText = temperature;
     windspeedEl.innerText = windspeed + " km/h";
-    //winddirectionEl.innerText = winddirection;
     weathercodeEl.innerText = getWeatherByCode(weathercode);
+    //winddirectionEl.innerText = winddirection;
 }
 f();
 

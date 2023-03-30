@@ -8,27 +8,38 @@
     <link rel="stylesheet" href="index.css">
     <script defer src="index.js"></script>
     <title>Weather</title>
-    
+
 </head>
 
 <body>
     <div id="weatherBox" class="box">
 
-        <div id="city" class="weatherElement"></div>
+        <div class="upperBox">
 
-        <div class="temperatureBox">
-            <div id="temperature" class="weatherElement"></div>
-            <img id="thermometerImg" class="weatherElement" src="/images/thermometer.png" alt="thermometer img">
+            <div class="cityBox">
+                <div id="city" class="weatherElement"></div>
+                <img id="cityImg" class="weatherElement" src="images/city.png" alt="...img">
+            </div>
+
+            <div class="temperatureBox">
+                <div id="temperature" class="weatherElement"></div>
+                <img id="thermometerImg" class="weatherElement" src="images/therm.png" alt="...img">
+            </div>
+
         </div>
 
-        <div class="windspeedBox">
-            <img id="windImg" class="weatherElement" src="/images/wind.png" alt="wind img">
-            <div id="windspeed" class="weatherElement"></div>
-        </div>
+        <div class="lowerBox">
 
-        <div id="weathercode" class="weatherElement"></div>
-        
-        <!-- <div id="winddirection" class="weatherElement"></div> -->
+            <div class="windspeedBox">
+                <div id="windspeed" class="weatherElement"></div>
+                <img id="windImg" class="weatherElement" src="images/wind.png" alt="...img">
+            </div>
+
+            <div id="weathercode" class="weatherElement"></div>
+
+            <!-- <div id="winddirection" class="weatherElement"></div> -->
+
+        </div>
 
     </div>
 </body>

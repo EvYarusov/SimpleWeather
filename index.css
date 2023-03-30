@@ -1,7 +1,7 @@
 .box {
     margin: 40px;
-    padding: 30px;
-    width: 300px;
+    padding: 20px 10px;
+    width: 350px;
     height: 450px;
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
@@ -12,34 +12,39 @@
     border-radius: 10px;
 }
 
+.upperBox, .lowerBox {
+    height: 225px;
+    width: 100%;
+}
+
 .weatherElement {
-    margin: 20px;
+    margin: 20px 10px;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.temperatureBox, .windspeedBox {
+.temperatureBox, .windspeedBox, .cityBox {
+    width: 100%;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .temperatureBox {
     margin-bottom: 30px;
 }
 
-#thermometerImg {
-    height: 50px;
-    
+#thermometerImg, #cityImg {
+    height: 40px;    
 }
 
 #windImg {
-    height: 60px;
-    
+    height: 50px;    
 }
 
 #city {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #temperature {

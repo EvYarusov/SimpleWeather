@@ -1,5 +1,10 @@
-.box {
-    margin: 40px;
+.mainBox {
+    display: flex;
+    justify-content: center;
+}
+
+.weatherbox {
+    margin: 10px 0px;
     padding: 20px 10px;
     width: 350px;
     height: 450px;
